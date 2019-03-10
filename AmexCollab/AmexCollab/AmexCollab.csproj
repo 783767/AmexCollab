@@ -45,6 +45,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data.Linq" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -68,11 +69,60 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Chat.aspx" />
+    <Content Include="CoolHints.aspx" />
     <Content Include="department.aspx" />
+    <Content Include="images\bg-title-01.jpg" />
+    <Content Include="images\bg-title-02.jpg" />
+    <Content Include="images\finance.png" />
+    <Content Include="images\icon\Amex.jpg" />
+    <Content Include="images\icon\avatar-01.jpg" />
+    <Content Include="images\icon\avatar-02.jpg" />
+    <Content Include="images\icon\avatar-03.jpg" />
+    <Content Include="images\icon\avatar-04.jpg" />
+    <Content Include="images\icon\avatar-05.jpg" />
+    <Content Include="images\icon\avatar-06.jpg" />
+    <Content Include="images\icon\avatar-big-01.jpg" />
+    <Content Include="images\icon\logo-blue.png" />
+    <Content Include="images\icon\logo-mini.png" />
+    <Content Include="images\icon\logo-white.png" />
+    <Content Include="images\icon\logo.png" />
+    <Content Include="images\icon\Untitled-1.jpg" />
+    <Content Include="images\loyalty.png" />
+    <Content Include="images\marketing.png" />
+    <Content Include="images\travel.png" />
     <Content Include="index.aspx" />
+    <Content Include="landingpage.aspx" />
+    <Content Include="login.aspx" />
+    <Content Include="Loyalty.aspx" />
+    <Content Include="Projects.aspx" />
+    <Content Include="Register.aspx" />
+    <Content Include="Reviews.aspx" />
+    <Content Include="Supervisors.aspx" />
+    <Content Include="Tags.aspx" />
+    <Content Include="Talk.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Chat.aspx.cs">
+      <DependentUpon>Chat.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Chat.aspx.designer.cs">
+      <DependentUpon>Chat.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CoolHints.aspx.cs">
+      <DependentUpon>CoolHints.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CoolHints.aspx.designer.cs">
+      <DependentUpon>CoolHints.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DataClasses1.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataClasses1.dbml</DependentUpon>
+    </Compile>
     <Compile Include="department.aspx.cs">
       <DependentUpon>department.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -87,7 +137,49 @@
     <Compile Include="index.aspx.designer.cs">
       <DependentUpon>index.aspx</DependentUpon>
     </Compile>
+    <Compile Include="landingpage.aspx.cs">
+      <DependentUpon>landingpage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="landingpage.aspx.designer.cs">
+      <DependentUpon>landingpage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Loyalty.aspx.cs">
+      <DependentUpon>Loyalty.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Loyalty.aspx.designer.cs">
+      <DependentUpon>Loyalty.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Projects.aspx.cs">
+      <DependentUpon>Projects.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Projects.aspx.designer.cs">
+      <DependentUpon>Projects.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reviews.aspx.cs">
+      <DependentUpon>Reviews.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reviews.aspx.designer.cs">
+      <DependentUpon>Reviews.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Site1.Master.cs">
       <DependentUpon>Site1.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -95,8 +187,37 @@
     <Compile Include="Site1.Master.designer.cs">
       <DependentUpon>Site1.Master</DependentUpon>
     </Compile>
+    <Compile Include="Supervisors.aspx.cs">
+      <DependentUpon>Supervisors.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Supervisors.aspx.designer.cs">
+      <DependentUpon>Supervisors.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tags.aspx.cs">
+      <DependentUpon>Tags.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tags.aspx.designer.cs">
+      <DependentUpon>Tags.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Talk.aspx.cs">
+      <DependentUpon>Talk.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Talk.aspx.designer.cs">
+      <DependentUpon>Talk.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="DataClasses1.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>DataClasses1.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+    <None Include="DataClasses1.dbml.layout">
+      <DependentUpon>DataClasses1.dbml</DependentUpon>
+    </None>
     <None Include="packages.config" />
     <Content Include="Site1.Master" />
     <None Include="Web.Debug.config">
@@ -105,6 +226,9 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

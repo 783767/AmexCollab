@@ -47,7 +47,7 @@
                 <div class="container-fluid">
                     <div class="header-mobile-inner">
                         <a class="logo" href="index.html">
-                            <img src="images/icon/logo.png" alt="CoolAdmin" />
+                            <img src="images/icon/logo.png" style="width:30%" alt="CoolAdmin" />
                         </a>
                         <button class="hamburger hamburger--slider" type="button">
                             <span class="hamburger-box">
@@ -65,38 +65,39 @@
         <aside class="menu-sidebar d-none d-lg-block">
             <div class="logo">
                 <a href="#">
-                    <img src="images/icon/logo.png" alt="" />
+                    <img src="images/icon/logo.png" style="width:30%" alt="" />
                 </a>
             </div>
             <div class="menu-sidebar__content js-scrollbar1">
                 <nav class="navbar-sidebar">
                     <ul class="list-unstyled navbar__list">
                         <li class="active has-sub">
-                            <a class="js-arrow" href="#">
+                            <a class="js-arrow" href="index.aspx">
                                 <i class="fas fa-tachometer-alt"></i>Dashboard</a>
                             
                         </li>
-                        <li>
-                            <a href="chart.html">
-                                <i class="fas fa-chart-bar"></i>Supervisers</a>
-                        </li>
-                        <li>
-                            <a href="table.html">
-                                <i class="fas fa-table"></i>Anonymous Chat Forum</a>
-                        </li>
-                        <li>
-                            <a href="form.html">
+                         <li>
+                            <a href="department.aspx">
                                 <i class="far fa-check-square"></i>Department Timelines</a>
                         </li>
-                        <li>
-                            <a href="department.aspx">
-                                <i class="fas fa-calendar-alt"></i>Department Relationships</a>
-                        </li>
-                        <li>
-                            <a href="map.html">
-                                <i class="fas fa-map-marker-alt"></i>Maps</a>
+                         <li>
+                            <a href="CoolHints.aspx">
+                                <i class="far fa-check-square"></i>Cool Hints</a>
                         </li>
                        
+                        <li>
+                         <a href="Projects.aspx">
+                                <i class="far fa-check-square"></i>Projects</a>
+                        </li>
+                        <li>
+                            <a href="Supervisors.aspx">
+                                <i class="fas fa-chart-bar"></i>Supervisers</a>
+                        </li>
+                     
+                        <li>
+                            <a href="Talk.aspx">
+                                <i class="fas fa-table"></i>Anonymous Chat Forum</a>
+                        </li>
                        
                     </ul>
                 </nav>
@@ -233,23 +234,23 @@
                                 <div class="account-wrap">
                                     <div class="account-item clearfix js-item-menu">
                                         <div class="image">
-                                            <img src="images/icon/avatar-01.jpg" alt="John Doe" />
+                                            <img src="images/icon/avatr-01.jpg" id="msga"  runat="server" alt="" />
                                         </div>
                                         <div class="content">
-                                            <a class="js-acc-btn" href="#">john doe</a>
+                                            <p id ="pp" runat="server"></p>
+
                                         </div>
                                         <div class="account-dropdown js-dropdown">
                                             <div class="info clearfix">
                                                 <div class="image">
                                                     <a href="#">
-                                                        <img src="images/icon/avatar-01.jpg" alt="John Doe" />
+                                                        <img src="images/icon/avatr-01.jpg" alt="" />
                                                     </a>
                                                 </div>
                                                 <div class="content">
                                                     <h5 class="name">
-                                                        <a href="#">john doe</a>
                                                     </h5>
-                                                    <span class="email">johndoe@example.com</span>
+                                                    <span class="email">username@gmail.com</span>
                                                 </div>
                                             </div>
                                             <div class="account-dropdown__body">

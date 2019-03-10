@@ -24,17 +24,28 @@
                             </div>
                         </div>
                         <div class="row m-t-25">
-                            <div class="col-sm-6 col-lg-3">
-                                <div class="overview-item overview-item--c1">
+                             <div class="col-sm-6 col-lg-3">
+                                <a href="Loyalty.aspx"><div class="overview-item overview-item--c2">
                                     <div class="overview__inner">
                                         <div class="overview-box clearfix">
-                                            <div class="icon">
-                                                <i class="zmdi zmdi-account-o"></i>
-                                            </div>
-                                            <div class="text">
-                                                <h2>Loyalty</h2>
-                                            </div>
+                                           
                                         </div>
+                                        <img src="images/loyalty.png" />
+                                        <br />
+                                    </div>
+                                    <br />
+                                </div>
+                                    </a>
+                            </div>
+                             <div class="col-sm-6 col-lg-3">
+                                <div class="overview-item overview-item--c2">
+                                    <div class="overview__inner">
+                                        <div class="overview-box clearfix">
+                                            
+                                            <img src="images/travel.png" />
+                                            <br />
+                                        </div>
+                                        <br />
                                     </div>
                                 </div>
                             </div>
@@ -42,44 +53,28 @@
                                 <div class="overview-item overview-item--c2">
                                     <div class="overview__inner">
                                         <div class="overview-box clearfix">
-                                            <div class="icon">
-                                                <i class="zmdi zmdi-shopping-cart"></i>
-                                            </div>
-                                            <div class="text">
-                                                <h2>Finance</h2>
-                                            </div>
+                                            
+                                            <img src="images/marketing.png" />
+                                            <br />
                                         </div>
+                                        <br />
                                     </div>
                                 </div>
                             </div>
                             <div class="col-sm-6 col-lg-3">
-                                <div class="overview-item overview-item--c3">
+                                <div class="overview-item overview-item--c2">
                                     <div class="overview__inner">
                                         <div class="overview-box clearfix">
-                                            <div class="icon">
-                                                <i class="zmdi zmdi-calendar-note"></i>
-                                            </div>
-                                            <div class="text">
-                                                <h2>Software Development</h2>
-                                            </div>
+                                            
+                                            <img src="images/finance.png" />
                                         </div>
+                                       <br />
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-sm-6 col-lg-3">
-                                <div class="overview-item overview-item--c4">
-                                    <div class="overview__inner">
-                                        <div class="overview-box clearfix">
-                                            <div class="icon">
-                                                <i class="zmdi zmdi-money"></i>
-                                            </div>
-                                            <div class="text">
-                                                <h2>Makerting</h2>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                           
+                           
+                            
                         </div>
                      
                            
@@ -90,20 +85,20 @@
                                     <div class="au-card-title" style="background-image:url('images/bg-title-01.jpg');">
                                         <div class="bg-overlay bg-overlay--blue"></div>
                                         <h3>
-                                            <i class="zmdi zmdi-account-calendar"></i>26 April, 2018</h3>
+                                            <i class="zmdi zmdi-account-calendar"></i>26 April, 2019</h3>
                                         <button class="au-btn-plus">
                                             <i class="zmdi zmdi-plus"></i>
                                         </button>
                                     </div>
                                     <div class="au-task js-list-load">
                                         <div class="au-task__title">
-                                            <p>Tasks for John Doe</p>
+                                            <p>A challenge for  Marketing Group</p>
                                         </div>
                                         <div class="au-task-list js-scrollbar3">
                                             <div class="au-task__item au-task__item--danger">
                                                 <div class="au-task__item-inner">
                                                     <h5 class="task">
-                                                        <a href="#">Meeting about plan for Admin Template 2018</a>
+                                                        <a href="#">let's play a game online and see which team holds the winners</a>
                                                     </h5>
                                                     <span class="time">10:00 AM</span>
                                                 </div>
@@ -111,7 +106,7 @@
                                             <div class="au-task__item au-task__item--warning">
                                                 <div class="au-task__item-inner">
                                                     <h5 class="task">
-                                                        <a href="#">Create new task for Dashboard</a>
+                                                        <a href="#">Share will us your insights and data on TT projects</a>
                                                     </h5>
                                                     <span class="time">11:00 AM</span>
                                                 </div>
@@ -119,7 +114,7 @@
                                             <div class="au-task__item au-task__item--primary">
                                                 <div class="au-task__item-inner">
                                                     <h5 class="task">
-                                                        <a href="#">Meeting about plan for Admin Template 2018</a>
+                                                        <a href="#">Meeting about plan for Admin Template 2019</a>
                                                     </h5>
                                                     <span class="time">02:00 PM</span>
                                                 </div>
@@ -160,7 +155,7 @@
                                     <div class="au-card-title" style="background-image:url('images/bg-title-02.jpg');">
                                         <div class="bg-overlay bg-overlay--blue"></div>
                                         <h3>
-                                            <i class="zmdi zmdi-comment-text"></i>New Messages</h3>
+                                            <i class="zmdi zmdi-comment-text"></i>Earned Points 400 : Accredited Level</h3>
                                         <button class="au-btn-plus">
                                             <i class="zmdi zmdi-plus"></i>
                                         </button>
@@ -171,7 +166,7 @@
                                                 <p>You Have
                                                     <span>2</span>
 
-                                                    new messages
+                                                    300 Collaboration Points to go
                                                 </p>
                                             </div>
                                             <div class="au-message-list">
@@ -180,16 +175,16 @@
                                                         <div class="au-message__item-text">
                                                             <div class="avatar-wrap">
                                                                 <div class="avatar">
-                                                                    <img src="images/icon/avatar-02.jpg" alt="John Smith">
+                                                                    <img src="images/loyalty.png" alt="John Smith">
                                                                 </div>
                                                             </div>
                                                             <div class="text">
                                                                 <h5 class="name">John Smith</h5>
-                                                                <p>Have sent a photo</p>
+                                                                <p>Loyalty's Big Data</p>
                                                             </div>
                                                         </div>
                                                         <div class="au-message__item-time">
-                                                            <span>12 Min ago</span>
+                                                            <span>20 days ago</span>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -198,16 +193,16 @@
                                                         <div class="au-message__item-text">
                                                             <div class="avatar-wrap online">
                                                                 <div class="avatar">
-                                                                    <img src="images/icon/avatar-03.jpg" alt="Nicholas Martinez">
+                                                                    <img src="images/finance.png" alt="Nicholas Martinez">
                                                                 </div>
                                                             </div>
                                                             <div class="text">
-                                                                <h5 class="name">Nicholas Martinez</h5>
-                                                                <p>You are now connected on message</p>
+                                                                <h5 class="name">Finance Manager</h5>
+                                                                <p>Account Links</p>
                                                             </div>
                                                         </div>
                                                         <div class="au-message__item-time">
-                                                            <span>11:00 PM</span>
+                                                            <span>15 days ago</span>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -216,12 +211,12 @@
                                                         <div class="au-message__item-text">
                                                             <div class="avatar-wrap online">
                                                                 <div class="avatar">
-                                                                    <img src="images/icon/avatar-04.jpg" alt="Michelle Sims">
+                                                                    <img src="images/marketing.png" alt="Michelle Sims">
                                                                 </div>
                                                             </div>
                                                             <div class="text">
-                                                                <h5 class="name">Michelle Sims</h5>
-                                                                <p>Lorem ipsum dolor sit amet</p>
+                                                                <h5 class="name">Marketting Team</h5>
+                                                                <p>Recommendations for customer codes</p>
                                                             </div>
                                                         </div>
                                                         <div class="au-message__item-time">
@@ -229,60 +224,9 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="au-message__item">
-                                                    <div class="au-message__item-inner">
-                                                        <div class="au-message__item-text">
-                                                            <div class="avatar-wrap">
-                                                                <div class="avatar">
-                                                                    <img src="images/icon/avatar-05.jpg" alt="Michelle Sims">
-                                                                </div>
-                                                            </div>
-                                                            <div class="text">
-                                                                <h5 class="name">Michelle Sims</h5>
-                                                                <p>Purus feugiat finibus</p>
-                                                            </div>
-                                                        </div>
-                                                        <div class="au-message__item-time">
-                                                            <span>Sunday</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="au-message__item js-load-item">
-                                                    <div class="au-message__item-inner">
-                                                        <div class="au-message__item-text">
-                                                            <div class="avatar-wrap online">
-                                                                <div class="avatar">
-                                                                    <img src="images/icon/avatar-04.jpg" alt="Michelle Sims">
-                                                                </div>
-                                                            </div>
-                                                            <div class="text">
-                                                                <h5 class="name">Michelle Sims</h5>
-                                                                <p>Lorem ipsum dolor sit amet</p>
-                                                            </div>
-                                                        </div>
-                                                        <div class="au-message__item-time">
-                                                            <span>Yesterday</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="au-message__item js-load-item">
-                                                    <div class="au-message__item-inner">
-                                                        <div class="au-message__item-text">
-                                                            <div class="avatar-wrap">
-                                                                <div class="avatar">
-                                                                    <img src="images/icon/avatar-05.jpg" alt="Michelle Sims">
-                                                                </div>
-                                                            </div>
-                                                            <div class="text">
-                                                                <h5 class="name">Michelle Sims</h5>
-                                                                <p>Purus feugiat finibus</p>
-                                                            </div>
-                                                        </div>
-                                                        <div class="au-message__item-time">
-                                                            <span>Sunday</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
+                                               
+                                                
+                                                
                                             </div>
                                             <div class="au-message__footer">
                                                 <button class="au-btn au-btn-load js-load-btn">load more</button>
@@ -293,17 +237,17 @@
                                                 <div class="au-chat-info">
                                                     <div class="avatar-wrap online">
                                                         <div class="avatar avatar--small">
-                                                            <img src="images/icon/avatar-02.jpg" alt="John Smith">
+                                                            <img src="images/loyalty.jpg" alt="John Smith">
                                                         </div>
                                                     </div>
                                                     <span class="nick">
-                                                        <a href="#">John Smith</a>
+                                                        <a href="#">Aisha Justin</a>
                                                     </span>
                                                 </div>
                                             </div>
                                             <div class="au-chat__content">
                                                 <div class="recei-mess-wrap">
-                                                    <span class="mess-time">12 Min ago</span>
+                                                    <span class="mess-time">5 days to go</span>
                                                     <div class="recei-mess__inner">
                                                         <div class="avatar avatar--tiny">
                                                             <img src="images/icon/avatar-02.jpg" alt="John Smith">
